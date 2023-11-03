@@ -202,7 +202,7 @@ def menu():
                                 linex()
                                 file = input(' Put file path\033[1;37m: ')
                                 try:
-                                        fo = open(file,'r').read().splitlines()
+                                        fo = open(File,'r').read().splitlines()
                                 except FileNotFoundError:
                                         print(' File location not found ')
                                         time.sleep(1)
@@ -677,4 +677,4 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 except Exception as e:pass
-menu()
+	menu()
