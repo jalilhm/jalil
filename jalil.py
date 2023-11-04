@@ -204,7 +204,7 @@ def linex():
 
 def Main_ZIDI():
 	def clear():
-        print(' [1] File Cloning \n [2] Random Cloning \n [3] Gmail Cloning \n [0] Exit')
+		print('[1] File Cloning \n [2] Random Cloning \n [3] Gmail Cloning \n [0] Exit')
         linex()
         shm= input(' [+] Select option: ')
         if shm =='1':
