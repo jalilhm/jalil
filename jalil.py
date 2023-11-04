@@ -203,7 +203,7 @@ def linex():
         print('\033[97;1m════════════════════════════════════════════════')
 
 def Main_ZIDI(): 
-def clear()
+def clear():
         print(' [1] File Cloning \n [2] Random Cloning \n [3] Gmail Cloning \n [0] Exit')
         linex()
         shm= input(' [+] Select option: ')
